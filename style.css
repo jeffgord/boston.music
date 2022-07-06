@@ -2,6 +2,10 @@ body {
     background-color: #fff2cc
 }
 
+h1 {
+    text-align: center;
+}
+
 #All {
     color: #b30000
 }
