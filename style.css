@@ -1,19 +1,27 @@
+body {
+    background-color: #fff2cc
+}
+
 #All {
-    color: red
+    color: #b30000
 }
 
 #Bos {
-    color: blue
+    color: #0052cc
 }
 
 #Cam {
-    color: orange
+    color: #b36b00
 }
 
 #JP {
-    color: green
+    color: #206020
 }
 
 #Som {
-    color: purple
+    color: #990099
+}
+
+#Other {
+    color: #333333
 }
