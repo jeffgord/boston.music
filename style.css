@@ -13,8 +13,6 @@ h1 {
 
 h2 {
     font-style: italic;
-    width: 400px;
-    text-align: center;
 }
 
 a {
@@ -23,7 +21,7 @@ a {
 
 li {
     list-style: none;
-    margin-left: -1em; 
+    margin-left: -3em;
 }
 
 #All {
@@ -51,19 +49,19 @@ li {
 }
 
 #venues {
-    padding-left: 5vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
 
-    text-align: center;
     display: flex;
     flex-direction: row;
-    gap: 5px;
     flex-wrap: wrap;
+
+    gap: 3vw;
 }
 
 .venue_type {
-    /*background-color: green;*/
     text-align: center;
-    width: 42vw;
+    /*width: 42vw; */
 }
 
 #location {
