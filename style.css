@@ -1,7 +1,7 @@
 body {
 
     font-family: 'Noto Serif Display', serif;
-    background-color: #fff2cc
+    background-color: cornsilk;
 }
 
 h1 {
@@ -9,68 +9,39 @@ h1 {
     font-style: italic;
     font-weight: 900;
     font-size: 50px;
+    color: saddlebrown;
 }
 
 h2 {
     font-style: italic;
+    color: teal;
 }
 
 a {
     text-decoration: none;
+    color: saddlebrown;
 }
 
 li {
     list-style: none;
     margin-left: -3em;
+    text-transform: lowercase;
 }
 
-#All {
-    color: #b30000
-}
-
-#Bos {
-    color: #0052cc
-}
-
-#Cam {
-    color: #b36b00
-}
-
-#JP {
-    color: #206020
-}
-
-#Som {
-    color: #990099
-}
-
-#Other {
-    color: #333333
-}
-
-#venues {
-    padding-left: 7vw;
-    padding-right: 7vw;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    gap: 3vw;
-}
-
-.venue_type {
+.location {
     text-align: center;
     /*width: 42vw; */
 }
 
-#location {
-    align-items: center;
-    display: flex;
-    gap: 10px;
+#disclaimer {
+    font-style: italic;
+    text-align: center;
+    color: teal;
 }
 
-.locale {
-    text-align: center;
-    flex-grow: 1;
+#contact {
+    padding-right: 3%;
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
 }
